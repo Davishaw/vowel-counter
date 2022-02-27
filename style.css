@@ -1,0 +1,81 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: green;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 3px;
+    width: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#navbar {
+    margin: auto;
+    width: 20%;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    font-weight: bold;
+}
+
+#err-message {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: red;
+}
+
+#modal {
+    position: fixed;
+    background-color: rgba(189, 157, 174, 0.45);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#modal-content {
+    padding: 20px;
+    width: 20%;
+    margin: auto;
+    background-color: #fefefe;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#close {
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
+
+#close:hover {
+    color: rgba(218, 46, 46, 0.82);
+}
+
+p {
+    font-weight: bold;
+    color: red;
+}
+
